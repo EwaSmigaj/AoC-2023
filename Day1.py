@@ -58,7 +58,7 @@ def word_to_digit(msg):
     return msg
 
 
-file1 = open('input.txt', 'r')
+file1 = open('input_test_day1.txt', 'r')
 lines = file1.readlines()
 
 print(sum_calibration_values(lines))
